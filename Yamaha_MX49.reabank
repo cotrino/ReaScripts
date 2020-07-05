@@ -1,0 +1,1195 @@
+//  Yamaha MX49/61 Reabank  file
+//
+//  Gregory V Pencheff
+//  Lancaster, PA 
+//  November 2017
+//
+//  I copied the text from the Yamaha voice list PDF file, dumped that into a database
+//  then manipulated the data in the database to produce this text based *.reabank file
+//  
+// 
+//  There are probably better ways to organize the various patches within a bank
+//  
+Bank 0 0 General MIDI
+0     1  APno: C GrandPno
+1     2  APno: Rock Piano
+3     3  APno: Honkytonk
+2     4  Vintg: CP 2007
+32    5  ABass: Acstc Bass
+33    6  EBass: FingerBass
+34    7  EBass: Pick Bass
+35    8  EBass: FretlessBs
+36    9  EBass: SlapBass 1
+37    10  EBass: SlpBs2 Vel
+38    11  SynBs: SynBass 1
+39    12  SynBs: SynBass 2
+61    13  BrsEn: Brass Sec
+60    14  Orche: F. Horns
+56    15  Solo: Trumpet 2
+57    16  Solo: Trombone 2
+58    17  Solo: Tuba
+59    18  Solo: Mute Trmp
+62    19  Synth: SynBrass 1
+63    20  Synth: SynBrass 2
+100   21  Digtl: Brightness
+10    22  Bell: Music Box
+14    23  Bell: Tube Bell
+98    24  Bell: Crystal
+112   25  Bell: TinkleBell
+8     26  Malet: Celesta
+9     27  Malet: Glocken
+11    28  Malet: Vibes
+12    29  Malet: Marimba
+13    30  Malet: Xylophone
+108   31  Malet: Kalimba
+15    32  PDrum: Dulcimer
+47    33  PDrum: Timp+Cym
+113   34  PDrum: Agogo
+114   35  PDrum: Steel Drum
+115   36  PDrum: Woodblock
+116   37  PDrum: Taiko Drum
+117   38  PDrum: MelodicTom
+118   39  PDrum: Synth Drum
+110   40  Bowed: Fiddle
+104   41  Pluk: Sitar 2
+105   42  Pluk: Banjo
+106   43  Pluk: Shamisen
+107   44  Pluk: Koto
+24    45  A.Gtr: Nylon Gtr
+25    46  A.Gtr: Steel Gtr
+26    47  E.Cln: Jazz Gtr
+27    48  E.Cln: Clean Gtr
+28    49  E.Cln: Mute Gtr
+29    50  E.Dst: OverdrvGtr
+30    51  E.Dst: DistrtnGtr
+31    52  E.Dst: Guitar Hrm
+6     53  Clavi: Harpsicord
+7     54  Clavi: BriteClavi
+4     55  EP: E.Piano 1
+5     56  FM: E.Piano 2
+80    57  Analg: SquareLead
+81    58  Analg: Saw Lead
+82    59  Analg: CalliopeLd
+83    60  Analg: Chiff Lead
+85    61  Analg: Voice Lead
+86    62  Analg: Fifth Lead
+87    63  Analg: Bass&Lead
+84    64  Digtl: CharanLead
+55    65  Hit 055 New Stab 63 : Orc Hit
+96    66  Move: Rain Pad
+102   67  Move: Echoes
+101   68  Sweep: Goblin
+19    69  Pipe: Church Org
+20    70  Pipe: Reed Organ
+21    71  Pipe: Accordion
+23    72  Pipe: Tango Acc
+16    73  TnWhl: Draw Organ
+17    74  TnWhl: Perc Organ
+18    75  TnWhl: Rock Organ
+90    76  Analg: PolySynPad
+88    77  Brite: NewAge Pad
+93    78  Brite: Metal Pad
+94    79  Brite: Halo Pad
+95    80  Brite: Sweep Pad
+97    81  Brite: SoundTrack
+103   82  Brite: Sci-Fi
+52    83  Choir: Aah Choir
+53    84  Choir: Ooh Choir
+54    85  Choir: Syn Voice
+91    86  Choir: Choir Pad
+89    87  Warm: Warm Pad
+92    88  Warm: Bowed Pad
+99    89  Warm: Atmosphere
+119   90  Move: ReverseCym
+120   91  Natur: Fret Noise
+121   92  Natur: BreathNoiz
+122   93  Natur: Seashore
+123   94  Natur: Tweet
+124   95  Natur: Telephone
+125   96  Natur: Helicopter
+126   97  Natur: Applause
+127   98  Natur: Gunshot
+44    99  Ensem: TremStrs2
+48    100  Ensem: Str Sec 1
+49    101  Ensem: Str Sec 2
+45    102  Pizz: Pizzicato
+46    103  Pizz: Harp
+40    104  Solo: Violin
+41    105  Solo: Viola
+42    106  Solo: Cello
+43    107  Solo: Contrabass
+50    108  Synth: Syn Strs 1
+51    109  Synth: Syn Strs 2
+72    110  Flute: Piccolo
+73    111  Flute: Flute
+75    112  Flute: Panflute
+76    113  Flute: Bottle
+77    114  Flute: Shakuhachi
+22    115  RPipe: Harmonica
+68    116  RPipe: Oboe 2
+69    117  RPipe: Eng. Horn
+70    118  RPipe: Bassoon 2
+71    119  RPipe: Clarinet 2
+109   120  RPipe: Bagpipe
+64    121  Sax: SopranoSax
+65    122  Sax: Alto Sax
+66    123  Sax: Tenor Sax
+67    124  Sax: Bari Sax
+74    125  WWind: Recorder
+78    126  WWind: Whistle
+79    127  WWind: Ocarina
+111   128  WWind: Shehnai 2
+
+Bank 63 0 Pianos, Keyboards, Organs 
+0     0  APno: CncrtGrand
+2     1  APno: MeloGround
+3     2  APno: Glasgow
+4     3  APno: RmntcPiano
+15    4  APno: Mono Grand
+9     5  Layer: Ballad Key
+10    6  Layer: 80s Layer
+11    7  Layer: BalladStck
+12    8  Layer: Piano Back
+13    9  Layer: P.&Strings
+14    10  Layer: P.&Choir
+1     11  Modrn: Rock Grand
+5     12  Modrn: Agro Grand
+6     13  Modrn: Tacky
+7     14  Modrn: HousePiano
+8     15  Vintg: Squashed
+16    16  Vintg: Old Blues
+17    17  Vintg: 1968
+18    18  Vintg: CP 1979
+19    19  Vintg: CP70Chorus
+20    20  Vintg: Journey
+72    21  Clavi: Vintg Clav
+73    22  Clavi: Super Clav
+74    23  Clavi: StereoClav
+75    24  Clavi: HollowClav
+76    25  Clavi: Nu Phasing
+77    26  Clavi: Touch Clav
+78    27  Clavi: Pulse Clav
+79    28  Clavi: Gtrsichord
+80    29  Clavi: Hipsichord
+21    30  EP: Vintage'74
+22    31  EP: R&B Soft
+23    32  EP: Early 70's
+24    33  EP: Soft Case
+25    34  EP: Multi Comp
+26    35  EP: Vintg Case
+27    36  EP: Hard Vintg
+28    37  EP: Sweetness
+29    38  EP: Phsr Vintg
+30    39  EP: Vintg TWah
+31    40  EP: ErlyFusion
+32    41  EP: Neo Soul
+33    42  EP: 1983
+34    43  EP: Contempo
+35    44  EP: Cilck Dyno
+36    45  EP: Dyno Strt
+37    46  EP: DynoChorus
+38    47  EP: 80sBoosted
+39    48  EP: ChorusHard
+40    49  EP: Max Tine
+41    50  EP: BellChorus
+42    51  EP: Drive EP
+43    52  EP: Vinyl EP
+44    53  EP: Ntrl Wurli
+45    54  EP: WurliBrght
+46    55  EP: WurliDistr
+47    56  EP: WurliPhaze
+62    57  EP: Hybrid EP
+63    58  EP: Mixed Up
+64    59  EP: Dyno Wurli
+67    60  EP: Elec Piano
+69    61  EP: EP Pad
+70    62  EP: DX Pad
+71    63  EP: Dyno Choir
+48    64  FM: DX Legend
+49    65  FM: Bell DX
+50    66  FM: DX Woody
+51    67  FM: Full Tine
+52    68  FM: DX Mellow
+53    69  FM: DX Crisp
+54    70  FM: DX Celesta
+55    71  FM: DX Pluck
+56    72  FM: DX-7 II
+57    73  FM: GS Tines
+58    74  FM: Galaxy DX
+59    75  FM: TX816 Bell
+60    76  FM: Marimba DX
+61    77  FM: DX5-Zero
+65    78  Synth: Analog Pno
+66    79  Synth: AhrAmI
+68    80  Synth: TransPiano
+94    81  Combo: 1972
+116   82  Combo: TnyCmboBr1
+117   83  Combo: TnyCmboBr2
+118   84  Combo: Panther
+119   85  Combo: 1967 Keys
+120   86  Combo: YD-45C
+121   87  Synth: Dmnd Head
+123   88  Synth: Moet
+124   89  Synth: Bollinger
+125   90  Synth: Vinyl Org
+127   91  Synth: FlyRhyBrs
+81    92  TnWhl: 16+8+5&1/3
+82    93  TnWhl: Jz2Perc+C3
+83    94  TnWhl: 1st3w/Perc
+84    95  TnWhl: Slow Jam
+85    96  TnWhl: Cool Cat
+86    97  TnWhl: Jazzy 1
+87    98  TnWhl: Jazzy 2
+88    99  TnWhl: JazzChorus
+89    100  TnWhl: On Road
+90    101  TnWhl: OnRoad2nd
+91    102  TnWhl: Progressy
+92    103  TnWhl: Rocky
+93    104  TnWhl: Crunchy
+95    105  TnWhl: Glassy
+96    106  TnWhl: Clean
+97    107  TnWhl: AllBarsPrc
+98    108  TnWhl: RtrVibrato
+99    109  TnWhl: Vib Chorus
+100   110  TnWhl: Soulemn
+101   111  TnWhl: Mellow
+102   112  TnWhl: Fully
+103   113  TnWhl: FullD
+104   114  TnWhl: Even Out
+105   115  TnWhl: HrmnicHole
+106   116  TnWhl: Few Wheels
+107   117  TnWhl: LeftManual
+108   118  TnWhl: DrawCntrl
+109   119  TnWhl: Stop Rotar
+110   120  TnWhl: CleanNoise
+111   121  TnWhl: Walk'nBass
+112   122  TnWhl: Greasy
+113   123  TnWhl: Swishie
+114   124  TnWhl: Solo Perc
+115   125  TnWhl: Vib Perc
+122   126  TnWhl: Early Bird
+126   127  TnWhl: Alternator
+
+Bank 63 1 CP, Ethnic, Guitar, Organ, Bass 
+30    0  Arp: Heaven
+45    1  Arp: RandomCoco
+17    2  Bell: Twinkle
+18    3  Bell: Stick Bell
+19    4  Bell: Ice Bells
+20    5  Bell: Bell Ice
+22    6  Bell: J-Pop
+23    7  Bell: ChorusBell
+24    8  Bell: Handbell
+29    9  Bell: PopBlsPad
+32    10  Bell: Nibelungen
+33    11  Bell: Wood Bell
+36    12  Bell: Gamelan
+38    13  Bell: MysticBowl
+42    14  Bell: Tibetan
+44    15  Bell: LostInAsia
+47    16  Bell: TmpBelGlck
+48    17  Bell: Orc Perc
+15    18  Malet: SftMarimba
+16    19  Malet: Vibes Bow
+37    20  Malet: EthncDream
+35    21  PDrum: SynStlDrm
+40    22  PDrum: GlassMbira
+46    23  PDrum: Kodo
+21    24  SynBl: Stack Bell
+25    25  SynBl: Bell Chiff
+26    26  SynBl: Sako Bell
+27    27  SynBl: Nice Bell
+28    28  SynBl: Noisy Bell
+31    29  SynBl: Digibox
+34    30  SynBl: Marimbell
+41    31  SynBl: IslandBell
+43    32  SynBl: RimbaBells
+39    33  Pluk: Mbira
+49    34  A.Gtr: Classical
+50    35  A.Gtr: HiTension
+51    36  A.Gtr: Sao Paulo
+52    37  A.Gtr: Barcelona
+53    38  A.Gtr: NylonSlide
+54    39  A.Gtr: NylonHrmnc
+55    40  A.Gtr: Clsc12Str1
+56    41  A.Gtr: Clsc12Str2
+57    42  A.Gtr: HH Nylon
+58    43  A.Gtr: Steel Str
+59    44  A.Gtr: OldStrings
+60    45  A.Gtr: SteelSlide
+61    46  A.Gtr: MuteNSlide
+62    47  A.Gtr: SteelHrmnc
+63    48  A.Gtr: HH Steel
+64    49  A.Gtr: Hi Strings
+65    50  A.Gtr: 2Acoustics
+66    51  A.Gtr: 2 Steel
+67    52  A.Gtr: Big 12Strs
+68    53  A.Gtr: Airy 12
+69    54  A.Gtr: 12StrMono
+70    55  E.Cln: ClnElc&Ac1
+71    56  E.Cln: ClnElc&Ac2
+72    57  E.Cln: ClnElc&Ac3
+73    58  E.Cln: Strange 12
+74    59  E.Cln: Jazzy Pick
+75    60  E.Cln: MelodicJaz
+76    61  E.Cln: FatOilJazz
+77    62  E.Cln: Touch Wah
+78    63  E.Cln: Baby
+79    64  E.Cln: Good Night
+80    65  E.Cln: DynClean
+81    66  E.Cln: SingleCoil
+82    67  E.Cln: Distant
+84    68  E.Cln: CleanSlide
+85    69  E.Cln: Hit It!
+86    70  E.Cln: PaddyClean
+87    71  E.Cln: BluesClean
+89    72  E.Cln: 2 Coil Amp
+90    73  E.Cln: Roto Guitr
+91    74  E.Cln: 2 CoilSlde
+92    75  E.Cln: 2 CoilSlap
+93    76  E.Cln: 2 Coil 80s
+94    77  E.Cln: 2 CoilRotr
+95    78  E.Cln: Elec12Str
+98    79  E.Cln: RetrFlng
+99    80  E.Cln: VintgStrum
+102   81  E.Cln: 2Electrics
+104   82  E.Cln: 2 CoilCln
+83    83  E.Dst: Some Hair
+88    84  E.Dst: 2 Coil '65
+96    85  E.Dst: Rotator
+97    86  E.Dst: MiddyTrem
+100   87  E.Dst: Spanky
+101   88  E.Dst: Rockabilly
+103   89  E.Dst: LightBlues
+105   90  E.Dst: ChorusDist
+106   91  E.Dst: Tex Boogie
+107   92  E.Dst: 59 Combo
+108   93  E.Dst: Alt Rocker
+109   94  E.Dst: OD M&H
+110   95  E.Dst: Crnchd 376
+111   96  E.Dst: DynamicAmp
+112   97  E.Dst: ChugGuitar
+113   98  E.Dst: Chugga
+114   99  E.Dst: Small Amp
+115   100  E.Dst: Metal Mute
+116   101  E.Dst: Dist M&H
+117   102  E.Dst: Cool Drive
+118   103  E.Dst: Hard Drive
+119   104  E.Dst: Hard Ramp
+120   105  E.Dst: HeavyDrive
+121   106  E.Dst: No.1 GTR
+122   107  E.Dst: SnakeFngr
+123   108  E.Dst: 2 CoilBlue
+124   109  E.Dst: OverTheTop
+125   110  E.Dst: Voodooman
+126   111  E.Dst: KillerWhmy
+127   112  E.Dst: LatinLover
+4     113  Pipe: Fluty Pipe
+5     114  Pipe: St. Peter
+6     115  Pipe: St. Paul
+7     116  Pipe: Impromptu
+8     117  Pipe: Mixture
+9     118  Pipe: Reed Split
+10    119  Pipe: Medieval
+11    120  Pipe: BreathPipe
+12    121  Pipe: Reedy Pipe
+13    122  Pipe: Sunday
+14    123  Pipe: Accordions
+1     124  TnWhl: Tradi
+2     125  TnWhl: Petit
+3     126  TnWhl: Fluty
+
+Bank 63 2 Bass, Guitar, Lead, String, Brass 
+11    0  ABass: Velo Growl
+12    1  ABass: GrooveAcst
+13    2  ABass: Upright
+120   3  Arp: Data Run
+121   4  Arp: Sharp 3o3
+122   5  Arp: Shrt 303Sw
+124   6  Arp: Compu Bass
+125   7  Arp: SqueakerBs
+14    8  EBass: PrcFlatWnd
+15    9  EBass: RoundWound
+16    10  EBass: Active P
+17    11  EBass: MidRange
+18    12  EBass: Active TRB
+19    13  EBass: Passive BB
+20    14  EBass: Vintage JB
+21    15  EBass: StrtFngr
+22    16  EBass: JB FltWnd
+23    17  EBass: Finger PBs
+24    18  EBass: Prec Amped
+25    19  EBass: FngrBsAmp
+26    20  EBass: Fret Buzzy
+27    21  EBass: SmallCab
+28    22  EBass: SimplePick
+29    23  EBass: Pick Open
+30    24  EBass: Pick Mute
+31    25  EBass: Pick Pull
+32    26  EBass: StrtPick
+33    27  EBass: Velo Bass
+34    28  EBass: SlapSwitch
+35    29  EBass: FretlssDry
+36    30  EBass: FretlsSolo
+37    31  EBass: PBassFngr
+38    32  EBass: Fuzz Bass
+39    33  EBass: GnarlyBs
+40    34  EBass: BaCement
+41    35  EBass: CmboDist
+42    36  EBass: 5thFzzBass
+43    37  EBass: Chili Bass
+44    38  EBass: BigCabinet
+45    39  EBass: Hybrd Bs 1
+46    40  EBass: Hybrd Bs 2
+47    41  SynBs: 3 VCOs
+48    42  SynBs: Brain Bass
+49    43  SynBs: Lo Boy
+50    44  SynBs: Dark Bass
+51    45  SynBs: RnBass
+52    46  SynBs: Fundamentl
+53    47  SynBs: Fat SineRz
+54    48  SynBs: Moon Bass
+55    49  SynBs: More Fatty
+56    50  SynBs: Chill Bass
+57    51  SynBs: Growler
+58    52  SynBs: Smacked
+59    53  SynBs: boooooooom
+60    54  SynBs: Biting
+61    55  SynBs: BoogieLgto
+62    56  SynBs: Uni Punch
+63    57  SynBs: Noise Bass
+64    58  SynBs: SingOsc
+65    59  SynBs: Unison
+66    60  SynBs: Long Spit
+67    61  SynBs: Big Bass
+68    62  SynBs: Bass&EQ
+69    63  SynBs: Rave Blade
+70    64  SynBs: PlsticBass
+71    65  SynBs: Funky Rez
+72    66  SynBs: Phat Three
+73    67  SynBs: Needl Bass
+74    68  SynBs: Acidd
+75    69  SynBs: Boom Bass
+76    70  SynBs: West Coast
+77    71  SynBs: Wazzo
+78    72  SynBs: PWM Bass
+79    73  SynBs: Bass Pedal
+80    74  SynBs: Oxide
+81    75  SynBs: Bowngo
+82    76  SynBs: Wide SynBs
+83    77  SynBs: Dry SynBs
+84    78  SynBs: KickBass
+85    79  SynBs: KeepDanc'n
+86    80  SynBs: VeloMastr
+87    81  SynBs: Wah Bass
+88    82  SynBs: Pulse Step
+89    83  SynBs: Phat Step
+90    84  SynBs: OctvAnalog
+91    85  SynBs: Sync Bass
+92    86  SynBs: Sync Big
+93    87  SynBs: Puncher
+94    88  SynBs: Dark Comp
+95    89  SynBs: Simpl Bass
+96    90  SynBs: Fat Sine
+97    91  SynBs: Kompressor
+98    92  SynBs: Dark Uni
+99    93  SynBs: Fight Bass
+100   94  SynBs: Byon Bass
+101   95  SynBs: One Voice
+102   96  SynBs: Pro-Attack
+103   97  SynBs: Bobby Bass
+104   98  SynBs: Trance Bs
+105   99  SynBs: ShrtSeqBs
+106   100  SynBs: Lately
+107   101  SynBs: FaaatPulse
+108   102  SynBs: Short PWM
+109   103  SynBs: Hyper Vel
+110   104  SynBs: Deep Point
+111   105  SynBs: Pulse Stop
+112   106  SynBs: Oh Bee Bs
+113   107  SynBs: Booming Bs
+114   108  SynBs: Army Bass
+115   109  SynBs: PnchyDrone
+116   110  SynBs: Dee Tune
+117   111  SynBs: Chorus Pls
+118   112  SynBs: Sweeper
+119   113  SynBs: HouseOrgan
+10    114  A.Gtr: ReznatrGtr
+3     115  E.Cln: HIP Mute
+4     116  E.Cln: PedalSteel
+5     117  E.Cln: 2Coil80s M
+0     118  E.Dst: 2 Coil Hrm
+1     119  E.Dst: CrunchyGtr
+2     120  E.Dst: Beater
+6     121  E.Dst: Mid Drive
+7     122  E.Dst: Hard Rockr
+8     123  E.Dst: Tough Tube
+9     124  E.Dst: Drive Wah
+123   125  Arp: Acid Fun
+126   126  Solo: Vln Solo 1
+127   127  Solo: Vln Solo 2
+
+Bank 63 3 Brass, String, Lead 
+76    0  BrsEn: TrumpetSec
+85    1  BrsEn: Bony Sec
+95    2  BrsEn: AccMf-fall
+96    3  BrsEn: Sm Brs Sec
+97    4  BrsEn: MedBrs Sec
+98    5  BrsEn: LotsOBrass
+99    6  BrsEn: Bright Sec
+100   7  BrsEn: Power Sec
+101   8  BrsEn: ShinyBrass
+102   9  BrsEn: Big Brass
+103   10  BrsEn: Sforzando
+104   11  BrsEn: SoftBrs&Sx
+105   12  BrsEn: Big Band
+106   13  BrsEn: SaxBigBand
+107   14  BrsEn: Velo Falls
+112   15  BrsEn: Lo-fi
+84    16  Orche: Euphonium
+86    17  Orche: F.Horn Sec
+87    18  Orche: Horn+Bone
+88    19  Orche: HrnBoneTrp
+89    20  Orche: Orc Brass
+90    21  Orche: Movie Hrns
+91    22  Orche: Symphonic
+92    23  Orche: Smooth Brs
+93    24  Orche: Soft Brass
+94    25  Orche: Dyn Brass
+68    26  Solo: Trumpet 1
+69    27  Solo: TpRmntcLeg
+70    28  Solo: C Trumpet
+71    29  Solo: Baby Trump
+72    30  Solo: Brt Trump
+73    31  Solo: JazzLegato
+74    32  Solo: LegendMute
+75    33  Solo: JazzFlugel
+77    34  Solo: Trombone 1
+78    35  Solo: BlowBoneLg
+79    36  Solo: Brt Tromb
+80    37  Solo: BigEzyBone
+81    38  Solo: FrenchHorn
+82    39  Solo: F.HornSolo
+83    40  Solo: Bass Tuba
+108   41  Synth: Hybrd Sec
+109   42  Synth: HybrdBrt
+110   43  Synth: HybrdBrs
+111   44  Synth: T Brass
+113   45  Synth: QuietBrs
+114   46  Synth: Big Syn
+115   47  Synth: Thinth
+116   48  Synth: XP Brass
+117   49  Synth: SmplSawBrs
+118   50  Synth: Brassy
+119   51  Synth: Kustom
+120   52  Synth: After 1984
+121   53  Synth: Finale
+122   54  Synth: Huge CS80
+123   55  Synth: CS-90
+124   56  Synth: Ob Soft
+125   57  Synth: Ob Horns
+126   58  Synth: SlowPWMBrs
+127   59  Synth: Soft5thBrs
+64    60  Arp: PizzMatic
+65    61  Arp: Amb Pizza
+6     62  Ensem: Quartet
+7     63  Ensem: Small Sec
+8     64  Ensem: Small Ens
+9     65  Ensem: Almighty
+10    66  Ensem: Med Sec
+11    67  Ensem: Med Hall
+12    68  Ensem: MedLrg Sec
+13    69  Ensem: Quick Bows
+14    70  Ensem: Aggressive
+15    71  Ensem: Large Sec
+16    72  Ensem: Octv Ens
+17    73  Ensem: Full Chmbr
+18    74  Ensem: Stryngs
+19    75  Ensem: DynamikBow
+23    76  Ensem: Trem Strs1
+24    77  Ensem: TremStrsSm
+27    78  Ensem: Ens Mix
+28    79  Ensem: Lush
+29    80  Ensem: BackGround
+30    81  Ensem: Romantic
+31    82  Ensem: Warm Back
+32    83  Ensem: Stringy
+33    84  Ensem: BigStrings
+42    85  Ensem: Warm Big
+54    86  Ensem: Horn+Strs
+63    87  Ensem: AnalogEns
+20    88  Pizz: Symph Pizz
+21    89  Pizz: PluckyPizz
+22    90  Pizz: Octv Pizz
+25    91  Pizz: SpicatoLrg
+26    92  Pizz: Disco
+66    93  Pizz: BeautyHarp
+67    94  Pizz: StereoHrp
+0     95  Solo: Vla Solo 1
+1     96  Solo: Vla Solo 2
+2     97  Solo: Cello Solo
+3     98  Solo: Cello Duo
+4     99  Solo: Cb Solo 1
+5     100  Solo: Cb solo 2
+56    101  Solo: ElecViolin
+34    102  Synth: PWMStrings
+35    103  Synth: MournStrs
+36    104  Synth: VP Soft
+37    105  Synth: PWM Simple
+38    106  Synth: GlassyRez
+39    107  Synth: SuperStrs
+40    108  Synth: Light Pad
+41    109  Synth: Noble Pad
+43    110  Synth: Sentimentl
+44    111  Synth: AnalogSwp
+45    112  Synth: Phase Strs
+46    113  Synth: Octv Strs
+47    114  Synth: JP Strings
+48    115  Synth: 3OscStrs
+49    116  Synth: SilvrStrs
+50    117  Synth: StrMachine
+51    118  Synth: 3Octv Strs
+52    119  Synth: TranceNtro
+53    120  Synth: MysticTrnc
+55    121  Synth: WW+Strings
+57    122  Synth: TronViolin
+58    123  Synth: TronStrs
+59    124  Synth: TapeStrs
+60    125  Synth: Orchestron
+61    126  Synth: Vinyltron
+62    127  Synth: AnalogStrs
+
+Bank 63 4 Lead, Pad, Wind, Comp 
+34    0  Analg: Huge Lead
+35    1  Analg: Bleep Lead
+36    2  Analg: DtndVintg
+37    3  Analg: Space Lead
+38    4  Analg: DualSqLead
+39    5  Analg: VintgSync
+40    6  Analg: Dirty Hook
+41    7  Analg: Nu Mini
+42    8  Analg: ProgRockLd
+43    9  Analg: Lucky
+44    10  Analg: Opening
+45    11  Analg: Rap Lead 1
+46    12  Analg: Mini Soft
+47    13  Analg: Feeling
+48    14  Analg: Early Lead
+50    15  Analg: Mr. Finger
+51    16  Analg: Singleline
+52    17  Analg: Soft RnB
+53    18  Analg: Wind Synth
+54    19  Analg: BrokenSine
+55    20  Analg: Duck Lead
+56    21  Analg: InDaNight
+57    22  Analg: Mayday
+58    23  Analg: On D Line
+59    24  Analg: EarlySolo
+60    25  Analg: Heterodyne
+61    26  Analg: Classic5th
+62    27  Analg: VintgSaw 1
+113   28  Arp: PortaQueen
+114   29  Arp: RabbidDogs
+97    30  Dance: DancySawLd
+98    31  Dance: BuzzAround
+99    32  Dance: XtremeWhl
+100   33  Dance: Supertrnce
+101   34  Dance: Poly Hook
+102   35  Dance: HPF Dance
+103   36  Dance: Tekk Glide
+104   37  Dance: Growl Tekk
+105   38  Dance: PlukdChrdz
+106   39  Dance: Chordz
+107   40  Dance: Cool Body
+108   41  Dance: Twist Sync
+109   42  Dance: TEKIE
+110   43  Dance: Sonix
+111   44  Dance: BigHookLd1
+112   45  Dance: BigHookLd2
+49    46  Digtl: FunkyPulse
+63    47  Digtl: Mini Three
+64    48  Digtl: Phat Dino
+65    49  Digtl: DynMini
+66    50  Digtl: PWM Lead
+67    51  Digtl: PulseWound
+68    52  Digtl: Think Sync
+69    53  Digtl: Punch Lead
+70    54  Digtl: Bright Saw
+71    55  Digtl: Trojan
+72    56  Digtl: Trojan 2
+73    57  Digtl: Wood Panel
+74    58  Digtl: Push Ahead
+75    59  Digtl: Eight
+76    60  Digtl: Sync Power
+77    61  Digtl: GlistenLd
+78    62  Digtl: Big Drone
+79    63  Digtl: Screameemy
+80    64  Digtl: FlangeFltr
+81    65  Digtl: Sutra
+82    66  Digtl: Sutra 2
+83    67  Digtl: Free LFO
+84    68  Digtl: Rap Lead 2
+85    69  Digtl: SpacePwrLd
+86    70  Digtl: Nyquist
+87    71  Digtl: Digimetal
+88    72  Digtl: SawDestroy
+89    73  Digtl: VintgSaw 2
+90    74  Digtl: Mady SQU
+91    75  Digtl: LowUndultn
+92    76  H Hop: Impact
+93    77  H Hop: Talk Mod
+94    78  H Hop: DgtlGngsta
+95    79  H Hop: PlasticSqz
+96    80  H Hop: Pinz Lead
+115   81  Analg: Saw Pad
+116   82  Analg: DrkMod Pad
+118   83  Analg: AmbSyn pad
+119   84  Analg: 5th Lite
+120   85  Analg: BPF Sweep
+121   86  Analg: High Wire
+122   87  Analg: Trance
+123   88  Analg: XtrmeSweep
+117   89  Warm: Dark Light
+124   90  Warm: Nu WarmPad
+125   91  Warm: 5th Atmos
+126   92  Warm: Dim
+127   93  Warm: Simple Air
+14    94  Flute: Flute Leg
+15    95  Flute: Sweet Flt
+16    96  Flute: Wood Flute
+24    97  Flute: 2 Flutes
+25    98  Flute: Flute+Clar
+32    99  Flute: Tron Flute
+33    100  Flute: Flootz
+17    101  RPipe: Oboe 1
+18    102  RPipe: Sweet Oboe
+19    103  RPipe: OboeSftLeg
+21    104  RPipe: Jz ClarLeg
+22    105  RPipe: Bassoon 1
+23    106  RPipe: Irish Pipe
+28    107  RPipe: GentleHarp
+29    108  RPipe: Woody Harp
+30    109  RPipe: BluzDistrt
+31    110  RPipe: Campfire
+0     111  Sax: SopranoLeg
+1     112  Sax: SopranoSft
+2     113  Sax: AltoVibLeg
+3     114  Sax: AltoLegato
+4     115  Sax: Alto
+5     116  Sax: Tenor Dyn
+6     117  Sax: Tenor Soft
+7     118  Sax: VelRingLeg
+8     119  Sax: Tenor Ring
+9     120  Sax: Baritone
+10    121  Sax: Hip Bari
+11    122  Sax: TenorSec
+12    123  Sax: SaxOctvSec
+13    124  Sax: MixdSaxSec
+20    125  WWind: Clarinet 1
+26    126  WWind: 2Ob & Bsn
+27    127  WWind: WW Quintet
+
+Bank 63 5 Comp, MFX, Pad 
+62    0  Arp: 001 P5 Rez Cmp
+63    1  Arp: P5 Analog
+64    2  Arp: CoolTrance
+65    3  Arp: >Attack<
+66    4  Arp: ClubFinger
+67    5  Arp: Wobbly
+68    6  Arp: Ana Dayz
+69    7  Arp: Airy Nylon
+70    8  Arp: Prog Attck
+71    9  Arp: Oracle
+83    10  Arp: Digy_SEQ
+84    11  Arp: NerveNasty
+103   12  Arp: ChillChrds
+104   13  Arp: DrtyChordz
+105   14  Arp: WildHorses
+106   15  Arp: Sixpack
+107   16  Arp: PercChords
+108   17  Arp: Chordmastr
+109   18  Arp: In Mirror
+110   19  Arp: Together!
+111   20  Arp: Happy Hour
+112   21  Arp: Recycling
+113   22  Arp: Dgtl Dream
+114   23  Arp: Carpenter
+115   24  Arp: E Games
+116   25  Arp: DancnWaves
+117   26  Arp: HitFactory
+118   27  Arp: FreakyLoop
+119   28  Arp: Mr. Wah!
+120   29  Arp: ChillCmp 1
+122   30  Arp: Kalimboidl
+123   31  Arp: Bippus
+124   32  Arp: VirtuosoSq
+125   33  Arp: FatSaw Arp
+126   34  Arp: TranceLine
+127   35  Arp: MetalPlate
+72    36  Digtl: Big Comp
+73    37  Digtl: Rezz Punch
+74    38  Digtl: Rez Clavi
+75    39  Digtl: Straight
+76    40  Digtl: PsychNoise
+77    41  Digtl: SquiffyMis
+78    42  Digtl: LektroCode
+79    43  Digtl: HardFM Kys
+80    44  Digtl: W Phaser
+81    45  Digtl: DPCM Attck
+82    46  Digtl: Talk
+85    47  Digtl: Amp_Zplus
+86    48  Digtl: TrnceAttck
+87    49  Digtl: TeknoAttck
+88    50  Digtl: PWM Perc
+89    51  Digtl: Stabby
+90    52  Digtl: Det Stab
+91    53  Digtl: Corrado
+92    54  Digtl: Synthetiq
+93    55  Digtl: Noiz Rezz
+94    56  Digtl: Tuxedo
+95    57  Digtl: Queens
+96    58  Digtl: Hip Voice
+101   59  Digtl: HyperTrnce
+102   60  Digtl: CosmicPsyc
+97    61  Fade: GX1
+98    62  Fade: NightWatch
+99    63  Fade: PluckBells
+100   64  Hook: PwrDncChrd
+121   65  Arp: ChillCmp 2
+14    66  Analg: Square
+56    67  Arp: AnalogShne
+57    68  Arp: CosmicGate
+58    69  Arp: Wild Horse
+59    70  Arp: HP Gate
+60    71  Arp: RhyFilter1
+61    72  Arp: RhyFilter2
+15    73  Brite: Shaper
+17    74  Brite: Dramana
+18    75  Brite: DreamShift
+24    76  Brite: The Breath
+27    77  Brite: FeatherPad
+28    78  Brite: SlwAttckPd
+29    79  Brite: Hi Brite
+30    80  Brite: Pad & Syn
+31    81  Brite: CsmcSwlPad
+32    82  Brite: SweeetFlng
+33    83  Brite: Waterfall
+34    84  Brite: Phase Pad
+35    85  Brite: Pure Synth
+36    86  Brite: Pearls
+37    87  Brite: FlangeWall
+38    88  Brite: Tornado
+39    89  Brite: Ice Rink
+40    90  Brite: Turbulence
+41    91  Brite: Bell Pad
+42    92  Brite: Paradise
+43    93  Brite: YelloRiver
+44    94  Brite: Love Me
+45    95  Brite: Frozen Pad
+10    96  Choir: MotherShip
+26    97  Choir: Vowel Pad
+47    98  Choir: Space Vox
+48    99  Choir: Haah Pad
+49    100  Choir: Oooh Pad
+50    101  Choir: Itopian
+51    102  Choir: Strs+Choir
+52    103  Choir: Angel Eyes
+53    104  Choir: GlassChoir
+54    105  Choir: Nativity
+55    106  Choir: Seraphim
+0     107  Warm: NatureSine
+1     108  Warm: Analog
+2     109  Warm: Perc Pad
+3     110  Warm: DrkAtmoPad
+4     111  Warm: DrkOrganPd
+5     112  Warm: Sft Brassy
+6     113  Warm: Rd2Nowhere
+7     114  Warm: Sweep Strs
+8     115  Warm: BrassMtnPd
+9     116  Warm: Luminous
+11    117  Warm: WrmBackPd
+12    118  Warm: Feather
+13    119  Warm: Pan Sphere
+16    120  Warm: EarlyDgtl
+19    121  Warm: RemoteSpc
+20    122  Warm: Fathoms
+21    123  Warm: SY22 2007
+22    124  Warm: MothrEarth
+23    125  Warm: LandingPad
+25    126  Warm: Humanity
+46    127  Warm: Pensive
+
+Bank 63 6 Comp, Lead, MFX, SFX, Ethnic 
+0     0  Arp: 5th Dancer
+1     1  Arp: Perc Seq
+2     2  Arp: Simply Fat
+3     3  Arp: BrightDnce
+4     4  Arp: QuadroTune
+5     5  Arp: Champ
+77    6  Ambie: Blizzard
+78    7  Ambie: SING BOWL
+79    8  Ambie: Vektris
+80    9  Ambie: MetalVoxPd
+81    10  Ambie: Refraction
+82    11  Ambie: Philanger
+86    12  Ambie: Whatsis
+87    13  Ambie: Pearl Coll
+88    14  Ambie: 4Dimention
+89    15  Ambie: Visions
+90    16  Ambie: Arctic Seq
+91    17  Ambie: Drifting
+92    18  Ambie: Electraid
+93    19  Ambie: Bed Time
+101   20  Arp: Green Valy
+102   21  Arp: 4Evr Glory
+103   22  Arp: ThinkOfYou
+104   23  Arp: Chord Fest
+105   24  Arp: ParistNite
+106   25  Arp: Way2UK
+107   26  Arp: ChillIbiza
+108   27  Arp: HeavenDoor
+109   28  Arp: Cocktail
+110   29  Arp: Vanilla
+111   30  Arp: IbizaGrv
+112   31  Arp: NylonChll
+113   32  Arp: XtremeHarp
+114   33  Arp: RainTrance
+115   34  Arp: Gtd Detune
+116   35  Arp: Gtd Choir
+117   36  Arp: Exotic
+118   37  Arp: Syncscrapr
+119   38  Arp: Ethnotic
+120   39  Arp: ComSat
+121   40  Arp: Investiktr
+122   41  Arp: MonkeyBars
+123   42  Arp: Chilltrnce
+124   43  Arp: RndmBeatz
+125   44  Arp: Elect Hood
+126   45  Arp: My Subs
+127   46  Arp: Mr.Sinistr
+98    47  Hit 055 New Stab 63 : Vinyl Hit
+99    48  Hit 055 New Stab 63 : Hit Me
+100   49  Hit 055 New Stab 63 : Amb Bite
+45    50  Move: GateOfEden
+46    51  Move: WavJourney
+47    52  Move: Ghosts
+48    53  Move: Nighttrain
+49    54  Move: MorningDew
+50    55  Move: CallingRez
+51    56  Move: 2 Switches
+52    57  Move: CellDivide
+53    58  Move: Jump Needl
+54    59  Move: SEKAI-ISAN
+55    60  Move: Setsunai
+56    61  Move: Week End
+58    62  Move: TiRiPAD
+59    63  Move: Cluster
+60    64  Move: XtremeRez
+61    65  Move: Bit Space
+62    66  Move: My Reality
+63    67  Move: Waterproof
+64    68  Move: Magnetics
+65    69  Move: Sand
+66    70  Move: Felicity
+67    71  Move: Vibrancy
+68    72  Move: Metalflake
+69    73  Move: RadioVenus
+70    74  Move: Elec Blue
+71    75  Move: Chyo Ethno
+72    76  Move: Metal Shpr
+73    77  Move: Calculator
+74    78  Move: konjoBEAM1
+75    79  Move: konjoBEAM2
+76    80  Move: konjoBEAM3
+83    81  Move: Slip Ambnt
+84    82  Move: Ellipsotrn
+85    83  Move: Envelope
+94    84  Sweep: Clearing
+95    85  Sweep: Long HiPa
+96    86  Sweep: Quad Swell
+19    87  Ambie: Toda
+20    88  Ambie: Water Tank
+21    89  Ambie: AutoTrapez
+22    90  Ambie: Nightmare
+23    91  Ambie: Find Newgt
+40    92  Arp: Scratch
+41    93  Arp: T. Can Lid
+42    94  Arp: Piston Eng
+43    95  Arp: Waka Noize
+6     96  Move: Yellow Men
+7     97  Move: Metamorph
+8     98  Move: Perplex
+9     99  Move: OuterPlnet
+10    100  Move: Industrial
+11    101  Move: SpaceWalkn
+12    102  Move: Scraper
+13    103  Move: Zero Two
+14    104  Move: Machines
+15    105  Move: Tobi Mage
+16    106  Move: Bitzz
+17    107  Move: Thexism
+18    108  Move: In My Head
+24    109  Natur: Nile River
+25    110  Natur: NewAgeAtmo
+26    111  Natur: Wind Blows
+27    112  Natur: Fire!
+28    113  SciFi: Scratching
+29    114  SciFi: Goa Psyche
+30    115  SciFi: BadWeather
+31    116  SciFi: RevrsAudio
+32    117  SciFi: RadioStat
+33    118  SciFi: Modifier X
+34    119  SciFi: Surveil
+35    120  SciFi: Noise FX
+36    121  SciFi: SmplHldVnt
+37    122  SciFi: Lazerzz
+38    123  SciFi: uhohhrr
+39    124  SciFi: OnTheFritz
+44    125  SciFi: Argentina
+57    126  SciFi: Dragonfly
+
+Bank 63 7 Ethnic, MFX, Drums 
+57    0  Arp: Ethnology
+58    1  Arp: Oztralian
+50    2  Blown: Ney
+51    3  Blown: Zurna
+52    4  Blown: Pungi
+53    5  Blown: Shehnai 1
+54    6  Blown: Didgeridoo
+55    7  Blown: SnakeCharm
+56    8  Blown: MythicFlt
+28    9  Bowed: Kemence
+29    10  Bowed: Kemen Wet
+30    11  Bowed: Yayli
+31    12  Bowed: Kawala
+33    13  Pluk: Baglama
+34    14  Pluk: Kotoun
+35    15  Pluk: Kanun
+36    16  Pluk: Bouzuki
+37    17  Pluk: OudTremolo
+38    18  Pluk: SazFeeze
+39    19  Pluk: WhereAmI?
+40    20  Pluk: Sakura
+41    21  Pluk: Nomad
+42    22  Pluk: Pluk-o-dy
+43    23  Pluk: Tambura
+44    24  Pluk: Sitar 1
+32    25  Struk: Santur
+45    26  Struk: Tabla Zone
+46    27  Struk: Udu
+47    28  Struk: Djembe
+48    29  Struk: Dhol
+49    30  Struk: Khol
+0     31  Arp: Polyrhythm
+1     32  Arp: Blood Flow
+2     33  Arp: OnTheVerge
+3     34  Arp: Droid
+4     35  Arp: Worker Ant
+5     36  Arp: ChoppLingo
+6     37  Arp: Vinyl Beat
+7     38  Arp: Drop Zone
+8     39  Arp: Particle
+9     40  Arp: Simple Arp
+10    41  Arp: CyberCycle
+11    42  Arp: BollogPuls
+12    43  Arp: Octopus
+13    44  Arp: E. Beatz
+14    45  Arp: Dream'nOfU
+15    46  Arp: Bros & Sis
+16    47  Arp: Pizza No.1
+17    48  Arp: Electronix
+18    49  Arp: TekkNow
+19    50  Arp: Hollow Seq
+20    51  Arp: Icicle
+21    52  Arp: Jegog
+22    53  Arp: OctoStrbe1
+23    54  Arp: OctoStrbe2
+24    55  Arp: Rndm Waves
+25    56  Arp: Semar
+26    57  Arp: Trailing
+27    58  Arp: Dream Wnds
+59    59  Arp: 8ZDestruct
+60    60  Arp: 8Z Jarrin
+61    61  Arp: 8Z Romps
+62    62  Arp: 8Z Glitch
+63    63  Arp: 8ZOxidized
+64    64  Arp: 8ZDnB Mchn
+65    65  Arp: 8ZDownTemp
+66    66  Arp: 8ZErlyLoFi
+67    67  Arp: 8ZNoizXprs
+68    68  Arp: 8Z Trance
+69    69  Arp: 8ZRevrsBtz
+70    70  Arp: 8ZCrushDnc
+71    71  Arp: 8ZHevyHrts
+72    72  Arp: 8ZChillBrk
+73    73  Arp: 8ZGtdBeatz
+74    74  Arp: 8ZHHShaker
+75    75  Arp: 8Z BlipHop
+76    76  Arp: 8ZNstyGlch
+77    77  Arp: 8Z Scratch
+78    78  Arp: 8Z Tod
+79    79  Arp: 8Z Psyc 1
+80    80  Arp: 8Z Psyc 2
+81    81  Arp: 8Z Dub El
+
+Bank 63 32 Drums 
+0     0  Drums: PwrStdKit1
+1     1  Drums: PwrStdKit2
+2     2  Drums: HyprStdKit
+3     3  Drums: DryStd Kit
+4     4  Drums: ModRockKit
+5     5  Drums: RckSteKit1
+6     6  Drums: RckSteKit2
+7     7  Drums: NuHH Kit 1
+8     8  Drums: NuHH Kit 2
+9     9  Drums: HipHopKit1
+10    10  Drums: HipHopKit2
+11    11  Drums: HipHopKit3
+12    12  Drums: HipHopKit4
+13    13  Drums: Stick Kit1
+14    14  Drums: Stick Kit2
+15    15  Drums: R&B Kit 1
+16    16  Drums: R&B Kit 2
+17    17  Drums: R&B Kit 3
+18    18  Drums: Trance Kit
+19    19  Drums: Psych Kit
+20    20  Drums: ChllOutKit
+21    21  Drums: Brush Kit
+22    22  Drums: Jazz Kit
+24    23  Drums: AnlgT9 Kit
+25    24  Drums: AnlgT8 Kit
+26    25  Drums: Tekno Kit
+27    26  Drums: HouseKit 1
+28    27  Drums: HouseKit 2
+29    28  Drums: HousCmpKit
+30    29  Drums: Big Kit
+31    30  Drums: Break Kit
+32    31  Drums: DnB Kit
+33    32  Drums: Acid Kit
+34    33  Drums: Jungle Kit
+35    34  Drums: ElectrcKit
+36    35  Drums: Human Kit
+37    36  Drums: Hard Kit
+38    37  Drums: DistrtdKit
+39    38  Drums: AmbientKit
+40    39  Drums: Garage Kit
+41    40  Drums: SynPop Kit
+42    41  Drums: Orch Kit
+43    42  Drums: DrmMachKit
+44    43  Drums: RckMultKit
+45    44  Drums: HH MutlKit
+53    45  Drums: DanceKicks
+54    46  Drums: ArabicMxd
+55    47  Drums: Belly Kit
+56    48  Drums: Dance Snrs
+58    49  Drums: Synth Kit
+23    50  Perc: Pop Latin
+46    51  Perc: Perc Kit
+47    52  Perc: LatPercKit
+48    53  Perc: Wacko Kit
+49    54  Perc: WoodBitKit
+50    55  Perc: MetlBItKit
+51    56  Perc: Hands Kit
+52    57  Perc: Scratches
+57    58  Perc: Spec SFXs
+59    59  Perc: SFX Kit
