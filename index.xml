@@ -3,7 +3,7 @@
   <category name="Utility">
     <reapack name="cotrino_ext_synth_program_browser.lua" type="script" desc="External Synth Program Browser">
       <version name="0.1" author="Cotrino" time="2020-07-05T16:36:38Z">
-        <source file="cotrino_ext_synth_program_browser.lua">https://github.com/cotrino/ReaScripts/blob/2362df7105a8eda54c1129cc1e910e66deeb30cc/cotrino_ext_synth_program_browser.lua</source>
+        <source file="cotrino_ext_synth_program_browser.lua" main="main" type="script">https://github.com/cotrino/ReaScripts/blob/2362df7105a8eda54c1129cc1e910e66deeb30cc/cotrino_ext_synth_program_browser.lua</source>
         <source file="REQ/preset_reader_functions.lua">https://raw.githubusercontent.com/cotrino/ReaScripts/a96304b29294505e5b5ddadc8a42a590f41b2ab6/REQ/preset_reader_functions.lua</source>
         <source file="REQ/midi_hardware_functions.lua">https://raw.githubusercontent.com/cotrino/ReaScripts/a96304b29294505e5b5ddadc8a42a590f41b2ab6/REQ/midi_hardware_functions.lua</source>
         <source file="Yamaha_MX49.reabank">https://raw.githubusercontent.com/cotrino/ReaScripts/2362df7105a8eda54c1129cc1e910e66deeb30cc/Yamaha_MX49.reabank</source>
