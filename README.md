@@ -1,6 +1,10 @@
 # ReaScripts
 [Cotrino](http://www.cotrino.com/)'s scripts for Cockos REAPER DAW.
 
+## Installation
+- ReaPack => Import repositories... => https://raw.githubusercontent.com/cotrino/ReaScripts/master/index.xml
+- ReaPack => Browse packages... => Find and install
+
 ## External HW Synth Program Browser
 Browser for programs (instrument patches) and arpeggios of your external hardware synthesizer. By selecting a program, inserts a MIDI media item in the selected track including the specific PC/CC/Sysex commands. This item is played automatically to generate an acoustic preview of each program/arpeggio combination. This is quite convenient to quickly browse settings in hardware synthesizers with tiny displays, but specially to keep those MIDI items with controller commands arranged within your song timeline, in order to dynamically change sounds on-the-fly.   
 ![Demo of the script in action with an external Yamaha MX88](https://raw.githubusercontent.com/cotrino/ReaScripts/master/gif/ext_synth_program_browser.gif)
